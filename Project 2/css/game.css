@@ -1,0 +1,32 @@
+.background    { background-image: url("images/bg.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("images/1.jpg"); }
+.wall          { background-image: url("images/br.jpg");   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("images/StarCoin.png");
+          background-size: 12px 12px;}
+.gain  { background-image: url("images/st.png");
+          background-size: 12px 12px; }
+.player { background-image: url("images/aa.png");
+          background-size: 30px 30px;}
+.floater { background-image: url("images/cloud.png");
+           background-size: 20px 20px;}
+.ghost { background-image: url("images/gg.png");
+          background-size: 20px 20px; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
